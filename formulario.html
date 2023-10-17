@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>formulario basico</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+            
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nom">Nombre:</label> <br>
+            
+            <input type="text" name="NombreUsu" id="nom"><br>
+            
+            <label for="ape"></label><br>
+            
+            <input type="text" name="ApellidoUsu" id="ape"> <br>
+            
+            <label for="Genero"></label><br>
+            <label for="fem">Femenino</label><br>
+            <input type="radio" name="genero" id="masc"><br>
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="genero" id="Otro"><br>
+            <label for="Otro">Otro</label><br>
+            <input type="radio" name="genero" id="Otro"><br>
+
+            <label for="foto"></label>
+            <input type="file" name="fdp" id="foto">
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Iniciar Sesion</legend>
+            <label for="emailusu">email</label><br>
+            <input type="email" name="emailusuario" id="emailusu"><br>
+            <label for="contra">Contraseña</label><br> 
+            <input type="password" name="contrasusu" id="contra"><br>
+
+        </fieldset>
+        <input type="checkbox" name="acuerdos" id="acuerdos" checked><br>
+        <label for="acuerdos">Acepto los terminos y condiciones</label><br>    
+        
+        <input type="checkbox" name="sus" id="susc" checked><br>
+        <label for="suscr">Suscribirse</label><br>
+        
+        <input type="reset" name="borrarinfo">
+        <input type="submit" name="enviarinfo"><br>
+    
+        <label for="pais">País</label>
+        <select name="paisUsu" id="pais">
+            <option>--Seleccione--</option>
+            <option value="arg">Argentina</option>   
+            <option value="chi">Chile</option>
+            <option value="uru">Uruguay</option>
+            
+        </select>
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
